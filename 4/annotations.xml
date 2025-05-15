@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>941151</id>
+      <size>195</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-06-10 09:11:24.198272+00:00</created>
+      <updated>2024-07-11 13:39:29.333004+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>194</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>942971</id>
+          <start>0</start>
+          <stop>194</stop>
+          <url>https://app.cvat.ai/api/jobs/941151</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>piotr3</username>
+        <email>piotr.stefanski@edu.uekat.pl</email>
+      </owner>
+      <assignee>
+        <username>AlgorytmikaIProgramowanie7</username>
+        <email>temp.aip7@gmail.com</email>
+      </assignee>
+      <labels>
+        <label>
+          <name>plate</name>
+          <color>#a0a0a0</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>plate number</name>
+              <mutable>False</mutable>
+              <input_type>text</input_type>
+              <default_value></default_value>
+              <values></values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2024-07-11 16:16:37.711633+00:00</dumped>
+  </meta>
+  <image id="0" name="1.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="1318.15" ytl="537.20" xbr="2015.94" ybr="704.15" z_order="0">
+      <attribute name="plate number">SCZ26114</attribute>
+    </box>
+  </image>
+  <image id="1" name="10.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2095.71" ytl="388.17" xbr="2523.81" ybr="498.64" z_order="0">
+      <attribute name="plate number">SK404XK</attribute>
+    </box>
+  </image>
+  <image id="2" name="100.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1549.66" ytl="636.83" xbr="1771.85" ybr="699.78" z_order="0">
+      <attribute name="plate number">SK321LE</attribute>
+    </box>
+  </image>
+  <image id="3" name="101.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1268.64" ytl="679.43" xbr="1631.55" ybr="790.41" rotation="3.70" z_order="0">
+      <attribute name="plate number">STA0461C</attribute>
+    </box>
+  </image>
+  <image id="4" name="102.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1121.71" ytl="683.31" xbr="1419.82" ybr="772.10" rotation="2.90" z_order="0">
+      <attribute name="plate number">SZA92043</attribute>
+    </box>
+  </image>
+  <image id="5" name="103.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1282.80" ytl="661.14" xbr="1601.27" ybr="744.55" rotation="2.90" z_order="0">
+      <attribute name="plate number">SJZJN07</attribute>
+    </box>
+  </image>
+  <image id="6" name="104.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1619.65" ytl="657.40" xbr="1886.28" ybr="731.44" rotation="1.60" z_order="0">
+      <attribute name="plate number">SJZJN07</attribute>
+    </box>
+  </image>
+  <image id="7" name="105.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1279.27" ytl="705.53" xbr="1610.71" ybr="811.11" rotation="3.90" z_order="0">
+      <attribute name="plate number">SJ6479A</attribute>
+    </box>
+  </image>
+  <image id="8" name="106.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="916.55" ytl="650.27" xbr="1236.93" ybr="759.01" rotation="4.80" z_order="0">
+      <attribute name="plate number">SH9264A</attribute>
+    </box>
+  </image>
+  <image id="9" name="107.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1468.46" ytl="652.58" xbr="1837.38" ybr="754.50" rotation="2.50" z_order="0">
+      <attribute name="plate number">SH4831C</attribute>
+    </box>
+  </image>
+  <image id="10" name="108.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1124.04" ytl="698.88" xbr="1503.90" ybr="806.28" rotation="3.80" z_order="0">
+      <attribute name="plate number">SW58471</attribute>
+    </box>
+  </image>
+  <image id="11" name="109.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1811.75" ytl="695.10" xbr="2143.48" ybr="778.46" rotation="3.00" z_order="0">
+      <attribute name="plate number">SW58471</attribute>
+    </box>
+  </image>
+  <image id="12" name="11.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1807.06" ytl="400.80" xbr="2212.55" ybr="525.57" rotation="358.00" z_order="0">
+      <attribute name="plate number">SL83861</attribute>
+    </box>
+  </image>
+  <image id="13" name="110.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1237.20" ytl="674.86" xbr="1665.47" ybr="778.40" rotation="2.30" z_order="0">
+      <attribute name="plate number">SLU7XA8</attribute>
+    </box>
+  </image>
+  <image id="14" name="111.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1340.92" ytl="660.03" xbr="1667.22" ybr="750.80" rotation="4.20" z_order="0">
+      <attribute name="plate number">KR5CV17</attribute>
+    </box>
+  </image>
+  <image id="15" name="112.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1576.17" ytl="641.32" xbr="1804.41" ybr="700.65" rotation="5.40" z_order="0">
+      <attribute name="plate number">SH9337C</attribute>
+    </box>
+  </image>
+  <image id="16" name="113.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1383.50" ytl="678.60" xbr="1771.00" ybr="786.01" rotation="2.50" z_order="0">
+      <attribute name="plate number">SBL63894</attribute>
+    </box>
+  </image>
+  <image id="17" name="114.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1290.59" ytl="689.70" xbr="1720.91" ybr="808.46" rotation="3.50" z_order="0">
+      <attribute name="plate number">SBE48JU</attribute>
+    </box>
+  </image>
+  <image id="18" name="115.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1175.43" ytl="615.50" xbr="1277.10" ybr="650.90" z_order="0">
+      <attribute name="plate number">CRY4R84</attribute>
+    </box>
+  </image>
+  <image id="19" name="116.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1138.55" ytl="669.42" xbr="1381.06" ybr="766.51" rotation="5.90" z_order="0">
+      <attribute name="plate number">S00773X</attribute>
+    </box>
+  </image>
+  <image id="20" name="117.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1659.09" ytl="754.60" xbr="1954.32" ybr="837.12" rotation="3.70" z_order="0">
+      <attribute name="plate number">SK8843W</attribute>
+    </box>
+  </image>
+  <image id="21" name="118.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="997.79" ytl="682.86" xbr="1292.53" ybr="784.99" rotation="5.40" z_order="0">
+      <attribute name="plate number">SK5682A</attribute>
+    </box>
+  </image>
+  <image id="22" name="119.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1304.50" ytl="655.26" xbr="1637.48" ybr="750.17" rotation="2.80" z_order="0">
+      <attribute name="plate number">SO6321W</attribute>
+    </box>
+  </image>
+  <image id="23" name="12.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1496.40" ytl="421.33" xbr="1893.50" ybr="544.63" rotation="358.50" z_order="0">
+      <attribute name="plate number">SK293VV</attribute>
+    </box>
+  </image>
+  <image id="24" name="120.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1648.47" ytl="658.17" xbr="1909.88" ybr="730.81" rotation="2.80" z_order="0">
+      <attribute name="plate number">SM79962</attribute>
+    </box>
+  </image>
+  <image id="25" name="121.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="715.22" ytl="634.80" xbr="946.32" ybr="724.61" rotation="5.50" z_order="0">
+      <attribute name="plate number">SK179VE</attribute>
+    </box>
+  </image>
+  <image id="26" name="122.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="748.24" ytl="680.20" xbr="1098.94" ybr="802.60" rotation="4.60" z_order="0">
+      <attribute name="plate number">KTTRJ07</attribute>
+    </box>
+  </image>
+  <image id="27" name="123.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1186.71" ytl="678.09" xbr="1496.32" ybr="765.90" rotation="4.00" z_order="0">
+      <attribute name="plate number">SK1067S</attribute>
+    </box>
+  </image>
+  <image id="28" name="124.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1269.98" ytl="656.29" xbr="1551.79" ybr="741.11" rotation="4.40" z_order="0">
+      <attribute name="plate number">SW55815</attribute>
+    </box>
+  </image>
+  <image id="29" name="125.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1768.10" ytl="647.70" xbr="1990.00" ybr="709.40" z_order="0">
+      <attribute name="plate number">SBE1515G</attribute>
+    </box>
+  </image>
+  <image id="30" name="126.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1873.28" ytl="685.60" xbr="2220.98" ybr="774.90" rotation="2.10" z_order="0">
+      <attribute name="plate number">SJ7749E</attribute>
+    </box>
+  </image>
+  <image id="31" name="127.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1497.64" ytl="640.44" xbr="1716.30" ybr="700.08" z_order="0">
+      <attribute name="plate number">STA5468C</attribute>
+    </box>
+  </image>
+  <image id="32" name="128.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1872.99" ytl="658.21" xbr="2111.53" ybr="715.64" z_order="0">
+      <attribute name="plate number">SL94455</attribute>
+    </box>
+  </image>
+  <image id="33" name="129.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1577.03" ytl="682.50" xbr="1948.09" ybr="786.31" z_order="0">
+      <attribute name="plate number">SBE3218G</attribute>
+    </box>
+  </image>
+  <image id="34" name="13.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2167.09" ytl="351.23" xbr="2529.48" ybr="457.82" z_order="0">
+      <attribute name="plate number">SL0457H</attribute>
+    </box>
+  </image>
+  <image id="35" name="130.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1380.45" ytl="644.96" xbr="1691.88" ybr="735.51" z_order="0">
+      <attribute name="plate number">SK807WM</attribute>
+    </box>
+  </image>
+  <image id="36" name="131.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1422.42" ytl="653.79" xbr="1749.30" ybr="739.93" z_order="0">
+      <attribute name="plate number">SL98181</attribute>
+    </box>
+  </image>
+  <image id="37" name="132.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1345.24" ytl="642.65" xbr="1658.87" ybr="728.79" z_order="0">
+      <attribute name="plate number">SMY01258</attribute>
+    </box>
+  </image>
+  <image id="38" name="133.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1283.39" ytl="660.32" xbr="1592.61" ybr="753.08" z_order="0">
+      <attribute name="plate number">SW60961</attribute>
+    </box>
+  </image>
+  <image id="39" name="134.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1773.72" ytl="629.40" xbr="2052.02" ybr="700.08" z_order="0">
+      <attribute name="plate number">ST2105K</attribute>
+    </box>
+  </image>
+  <image id="40" name="135.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="823.98" ytl="693.45" xbr="1119.95" ybr="799.47" z_order="0">
+      <attribute name="plate number">SG0580W</attribute>
+    </box>
+  </image>
+  <image id="41" name="136.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1128.78" ytl="695.66" xbr="1429.17" ybr="801.68" z_order="0">
+      <attribute name="plate number">SZ95471</attribute>
+    </box>
+  </image>
+  <image id="42" name="137.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1446.84" ytl="695.66" xbr="1714.09" ybr="772.96" z_order="0">
+      <attribute name="plate number">ST6666U</attribute>
+    </box>
+  </image>
+  <image id="43" name="138.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1404.87" ytl="660.32" xbr="1722.92" ybr="748.67" z_order="0">
+      <attribute name="plate number">SZO99CK</attribute>
+    </box>
+  </image>
+  <image id="44" name="139.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1486.59" ytl="700.08" xbr="1813.48" ybr="792.84" z_order="0">
+      <attribute name="plate number">SMI36115</attribute>
+    </box>
+  </image>
+  <image id="45" name="14.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2026.20" ytl="357.40" xbr="2540.65" ybr="496.06" z_order="0">
+      <attribute name="plate number">SK286XX</attribute>
+    </box>
+  </image>
+  <image id="46" name="140.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1163.80" ytl="669.60" xbr="1477.00" ybr="762.60" z_order="0">
+      <attribute name="plate number">SH7788A</attribute>
+    </box>
+  </image>
+  <image id="47" name="141.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1527.30" ytl="652.40" xbr="1826.70" ybr="733.60" z_order="0">
+      <attribute name="plate number">S7JM7</attribute>
+    </box>
+  </image>
+  <image id="48" name="142.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="898.00" ytl="662.50" xbr="1145.00" ybr="752.30" z_order="0">
+      <attribute name="plate number">ST5630V</attribute>
+    </box>
+  </image>
+  <image id="49" name="143(1).jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1050.24" ytl="612.76" xbr="1141.20" ybr="636.66" z_order="0">
+      <attribute name="plate number">SO0665L</attribute>
+    </box>
+  </image>
+  <image id="50" name="143.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1051.14" ytl="612.35" xbr="1141.57" ybr="635.44" z_order="0">
+      <attribute name="plate number">SO0665L</attribute>
+    </box>
+  </image>
+  <image id="51" name="144.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1390.89" ytl="660.81" xbr="1693.78" ybr="747.35" z_order="0">
+      <attribute name="plate number">STA1392C</attribute>
+    </box>
+  </image>
+  <image id="52" name="145.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1388.83" ytl="642.64" xbr="1653.86" ybr="727.01" z_order="0">
+      <attribute name="plate number">SO7183K</attribute>
+    </box>
+  </image>
+  <image id="53" name="146.jpg" width="2284" height="1524">
+    <box label="plate" source="manual" occluded="0" xtl="1395.70" ytl="697.40" xbr="1721.60" ybr="796.90" z_order="0">
+      <attribute name="plate number">SK289PU</attribute>
+    </box>
+  </image>
+  <image id="54" name="147.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="854.65" ytl="805.40" xbr="1187.07" ybr="916.83" z_order="0">
+      <attribute name="plate number">SK145YT</attribute>
+    </box>
+  </image>
+  <image id="55" name="148.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="923.16" ytl="741.77" xbr="1003.56" ybr="764.78" z_order="0">
+      <attribute name="plate number">SO68659</attribute>
+    </box>
+  </image>
+  <image id="56" name="149.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1601.62" ytl="807.80" xbr="1854.61" ybr="876.12" z_order="0">
+      <attribute name="plate number">ST8055V</attribute>
+    </box>
+  </image>
+  <image id="57" name="15.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1749.61" ytl="394.70" xbr="2131.34" ybr="499.19" z_order="0">
+      <attribute name="plate number">KOS8900E</attribute>
+    </box>
+  </image>
+  <image id="58" name="150.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="908.14" ytl="798.65" xbr="1201.96" ybr="904.49" z_order="0">
+      <attribute name="plate number">SPI19846</attribute>
+    </box>
+  </image>
+  <image id="59" name="151.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1507.00" ytl="814.90" xbr="1737.70" ybr="881.40" z_order="0">
+      <attribute name="plate number">SG287AT</attribute>
+    </box>
+  </image>
+  <image id="60" name="152.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1203.97" ytl="815.80" xbr="1548.88" ybr="918.00" z_order="0">
+      <attribute name="plate number">STA7109C</attribute>
+    </box>
+  </image>
+  <image id="61" name="153.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="963.07" ytl="801.20" xbr="1292.80" ybr="892.50" z_order="0">
+      <attribute name="plate number">SJ7912C</attribute>
+    </box>
+  </image>
+  <image id="62" name="154.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1092.20" ytl="839.00" xbr="1413.70" ybr="935.40" z_order="0">
+      <attribute name="plate number">SG2947W</attribute>
+    </box>
+  </image>
+  <image id="63" name="155.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1377.34" ytl="790.25" xbr="1689.40" ybr="874.20" z_order="0">
+      <attribute name="plate number">SG526CF</attribute>
+    </box>
+  </image>
+  <image id="64" name="156.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1481.36" ytl="779.30" xbr="1835.40" ybr="865.08" z_order="0">
+      <attribute name="plate number">SK8056K</attribute>
+    </box>
+  </image>
+  <image id="65" name="157.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="992.27" ytl="766.53" xbr="1346.31" ybr="874.20" z_order="0">
+      <attribute name="plate number">SB983FF</attribute>
+    </box>
+  </image>
+  <image id="66" name="158.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1136.40" ytl="803.03" xbr="1452.20" ybr="892.50" z_order="0">
+      <attribute name="plate number">SH9435C</attribute>
+    </box>
+  </image>
+  <image id="67" name="159.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1583.55" ytl="815.80" xbr="1859.12" ybr="888.80" z_order="0">
+      <attribute name="plate number">SK743MW</attribute>
+    </box>
+  </image>
+  <image id="68" name="16.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1940.45" ytl="366.27" xbr="2311.19" ybr="482.40" z_order="0">
+      <attribute name="plate number">SL2592F</attribute>
+    </box>
+  </image>
+  <image id="69" name="160.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1585.38" ytl="766.53" xbr="1831.75" ybr="828.60" z_order="0">
+      <attribute name="plate number">SC3222P</attribute>
+    </box>
+  </image>
+  <image id="70" name="161.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1209.44" ytl="821.30" xbr="1545.23" ybr="925.30" z_order="0">
+      <attribute name="plate number">WBR6P58</attribute>
+    </box>
+  </image>
+  <image id="71" name="162.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="806.13" ytl="810.33" xbr="1138.27" ybr="930.77" z_order="0">
+      <attribute name="plate number">SBE46085</attribute>
+    </box>
+  </image>
+  <image id="72" name="163.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1534.28" ytl="757.40" xbr="1818.97" ybr="839.53" z_order="0">
+      <attribute name="plate number">SK988PP</attribute>
+    </box>
+  </image>
+  <image id="73" name="164.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1154.69" ytl="808.50" xbr="1415.66" ybr="877.85" z_order="0">
+      <attribute name="plate number">SI64042</attribute>
+    </box>
+  </image>
+  <image id="74" name="165.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1067.10" ytl="784.78" xbr="1318.94" ybr="865.08" z_order="0">
+      <attribute name="plate number">SMI29210</attribute>
+    </box>
+  </image>
+  <image id="75" name="166.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1306.16" ytl="835.88" xbr="1667.50" ybr="938.07" z_order="0">
+      <attribute name="plate number">SL7185E</attribute>
+    </box>
+  </image>
+  <image id="76" name="167.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1238.64" ytl="761.05" xbr="1490.48" ybr="850.48" z_order="0">
+      <attribute name="plate number">KOS4V97</attribute>
+    </box>
+  </image>
+  <image id="77" name="168.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1663.85" ytl="759.23" xbr="1897.44" ybr="821.28" z_order="0">
+      <attribute name="plate number">SG9892X</attribute>
+    </box>
+  </image>
+  <image id="78" name="169.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="941.18" ytl="772.00" xbr="1151.04" ybr="861.43" z_order="0">
+      <attribute name="plate number">STAGA81</attribute>
+    </box>
+  </image>
+  <image id="79" name="17.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1949.14" ytl="566.12" xbr="2377.80" ybr="699.35" z_order="0">
+      <attribute name="plate number">SCZ26114</attribute>
+    </box>
+  </image>
+  <image id="80" name="170.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1120.02" ytl="777.48" xbr="1485.01" ybr="885.15" z_order="0">
+      <attribute name="plate number">SMI39019</attribute>
+    </box>
+  </image>
+  <image id="81" name="171.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="765.98" ytl="779.30" xbr="1076.22" ybr="901.57" z_order="0">
+      <attribute name="plate number">SCI2827J</attribute>
+    </box>
+  </image>
+  <image id="82" name="172.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1143.74" ytl="819.45" xbr="1508.73" ybr="928.95" z_order="0">
+      <attribute name="plate number">SZA7964E</attribute>
+    </box>
+  </image>
+  <image id="83" name="173.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1147.39" ytl="750.10" xbr="1426.61" ybr="839.53" z_order="0">
+      <attribute name="plate number">SK959YF</attribute>
+    </box>
+  </image>
+  <image id="84" name="174.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="692.98" ytl="762.88" xbr="935.70" ybr="852.30" z_order="0">
+      <attribute name="plate number">SL1426H</attribute>
+    </box>
+  </image>
+  <image id="85" name="175.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1539.76" ytl="788.43" xbr="1811.67" ybr="868.73" z_order="0">
+      <attribute name="plate number">SK440AY</attribute>
+    </box>
+  </image>
+  <image id="86" name="176.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1266.01" ytl="779.30" xbr="1567.13" ybr="870.55" z_order="0">
+      <attribute name="plate number">ST7736G</attribute>
+    </box>
+  </image>
+  <image id="87" name="177.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1129.60" ytl="816.80" xbr="1444.40" ybr="901.30" z_order="0">
+      <attribute name="plate number">SR1279L</attribute>
+    </box>
+  </image>
+  <image id="88" name="178.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1578.30" ytl="779.10" xbr="1871.30" ybr="847.30" z_order="0">
+      <attribute name="plate number">SR7916L</attribute>
+    </box>
+  </image>
+  <image id="89" name="179.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1603.00" ytl="821.50" xbr="1878.43" ybr="881.20" z_order="0">
+      <attribute name="plate number">SM78958</attribute>
+    </box>
+  </image>
+  <image id="90" name="18.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1911.99" ytl="381.20" xbr="2273.40" ybr="473.90" z_order="0">
+      <attribute name="plate number">SL3458H</attribute>
+    </box>
+  </image>
+  <image id="91" name="180.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1414.50" ytl="767.20" xbr="1619.84" ybr="816.80" z_order="0">
+      <attribute name="plate number">SJ4104C</attribute>
+    </box>
+  </image>
+  <image id="92" name="181.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1569.30" ytl="821.70" xbr="1770.10" ybr="867.20" z_order="0">
+      <attribute name="plate number">STA5950A</attribute>
+    </box>
+  </image>
+  <image id="93" name="182.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1565.44" ytl="814.84" xbr="1861.20" ybr="889.80" z_order="0">
+      <attribute name="plate number">STA2L80</attribute>
+    </box>
+  </image>
+  <image id="94" name="183.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1050.00" ytl="795.54" xbr="1389.90" ybr="884.50" z_order="0">
+      <attribute name="plate number">SGLWF71</attribute>
+    </box>
+  </image>
+  <image id="95" name="184.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1423.40" ytl="783.40" xbr="1783.30" ybr="867.90" z_order="0">
+      <attribute name="plate number">SR8817P</attribute>
+    </box>
+  </image>
+  <image id="96" name="185.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1258.10" ytl="820.17" xbr="1538.90" ybr="902.70" z_order="0">
+      <attribute name="plate number">SD4350J</attribute>
+    </box>
+  </image>
+  <image id="97" name="186.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1028.90" ytl="741.36" xbr="1116.90" ybr="770.92" z_order="0">
+      <attribute name="plate number">STA67KF</attribute>
+    </box>
+  </image>
+  <image id="98" name="187.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1293.80" ytl="773.90" xbr="1648.40" ybr="864.10" z_order="0">
+      <attribute name="plate number">SZ2805M</attribute>
+    </box>
+  </image>
+  <image id="99" name="188.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1664.17" ytl="806.60" xbr="1883.10" ybr="850.60" z_order="0">
+      <attribute name="plate number">SGLTK91</attribute>
+    </box>
+  </image>
+  <image id="100" name="189.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1075.00" ytl="822.63" xbr="1465.40" ybr="927.50" z_order="0">
+      <attribute name="plate number">SG0575J</attribute>
+    </box>
+  </image>
+  <image id="101" name="19.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1752.80" ytl="398.75" xbr="2110.10" ybr="506.60" z_order="0">
+      <attribute name="plate number">SJ3132A</attribute>
+    </box>
+  </image>
+  <image id="102" name="190.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1047.30" ytl="806.60" xbr="1333.40" ybr="886.10" z_order="0">
+      <attribute name="plate number">SPI16111</attribute>
+    </box>
+  </image>
+  <image id="103" name="191.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1166.69" ytl="746.29" xbr="1501.60" ybr="838.90" z_order="0">
+      <attribute name="plate number">KOL21767</attribute>
+    </box>
+  </image>
+  <image id="104" name="192.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1331.20" ytl="807.40" xbr="1593.40" ybr="879.40" z_order="0">
+      <attribute name="plate number">SMY5HP6</attribute>
+    </box>
+  </image>
+  <image id="105" name="193.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1523.79" ytl="815.25" xbr="1793.30" ybr="887.70" z_order="0">
+      <attribute name="plate number">SPS85295</attribute>
+    </box>
+  </image>
+  <image id="106" name="194.jpg" width="2284" height="1522">
+    <box label="plate" source="manual" occluded="0" xtl="1165.28" ytl="804.59" xbr="1415.70" ybr="883.90" z_order="0">
+      <attribute name="plate number">ST47026</attribute>
+    </box>
+  </image>
+  <image id="107" name="2.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2705.40" ytl="230.32" xbr="3269.54" ybr="387.10" z_order="0">
+      <attribute name="plate number">SK028SE</attribute>
+    </box>
+  </image>
+  <image id="108" name="20.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1659.40" ytl="418.18" xbr="2001.37" ybr="503.67" z_order="0">
+      <attribute name="plate number">SL2702J</attribute>
+    </box>
+  </image>
+  <image id="109" name="21.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1894.85" ytl="555.50" xbr="2261.00" ybr="665.40" z_order="0">
+      <attribute name="plate number">SK131NF</attribute>
+    </box>
+  </image>
+  <image id="110" name="22.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1813.80" ytl="425.30" xbr="2196.60" ybr="518.30" z_order="0">
+      <attribute name="plate number">SK971JF</attribute>
+    </box>
+  </image>
+  <image id="111" name="23.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1753.30" ytl="439.40" xbr="2151.20" ybr="547.00" z_order="0">
+      <attribute name="plate number">KOL27308</attribute>
+    </box>
+  </image>
+  <image id="112" name="24.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1870.60" ytl="387.70" xbr="2237.30" ybr="474.50" z_order="0">
+      <attribute name="plate number">KR3UH61</attribute>
+    </box>
+  </image>
+  <image id="113" name="25.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2133.30" ytl="560.70" xbr="2504.75" ybr="673.60" z_order="0">
+      <attribute name="plate number">SB3320U</attribute>
+    </box>
+  </image>
+  <image id="114" name="26.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1821.40" ytl="401.80" xbr="2234.54" ybr="509.60" z_order="0">
+      <attribute name="plate number">ST2232L</attribute>
+    </box>
+  </image>
+  <image id="115" name="27.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1807.30" ytl="375.80" xbr="2211.50" ybr="476.06" z_order="0">
+      <attribute name="plate number">STA0211F</attribute>
+    </box>
+  </image>
+  <image id="116" name="28.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1768.80" ytl="444.80" xbr="2157.80" ybr="541.50" z_order="0">
+      <attribute name="plate number">SRBKR79</attribute>
+    </box>
+  </image>
+  <image id="117" name="29.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1800.90" ytl="356.99" xbr="2177.68" ybr="451.94" z_order="0">
+      <attribute name="plate number">SO5220X</attribute>
+    </box>
+  </image>
+  <image id="118" name="3.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2085.76" ytl="291.66" xbr="2645.61" ybr="457.26" z_order="0">
+      <attribute name="plate number">SZA1837C</attribute>
+    </box>
+  </image>
+  <image id="119" name="30.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1911.49" ytl="399.58" xbr="2302.50" ybr="503.85" z_order="0">
+      <attribute name="plate number">SZO6KU4</attribute>
+    </box>
+  </image>
+  <image id="120" name="31.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1879.14" ytl="431.43" xbr="2306.05" ybr="548.42" z_order="0">
+      <attribute name="plate number">SK468VU</attribute>
+    </box>
+  </image>
+  <image id="121" name="32.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1934.59" ytl="384.33" xbr="2322.01" ybr="491.44" z_order="0">
+      <attribute name="plate number">SMI03L9</attribute>
+    </box>
+  </image>
+  <image id="122" name="33.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2337.20" ytl="351.67" xbr="2765.63" ybr="480.81" z_order="0">
+      <attribute name="plate number">SK713VL</attribute>
+    </box>
+  </image>
+  <image id="123" name="34.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2188.31" ytl="330.40" xbr="2659.28" ybr="469.41" z_order="0">
+      <attribute name="plate number">SR6510F</attribute>
+    </box>
+  </image>
+  <image id="124" name="35.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2214.90" ytl="433.71" xbr="2442.03" ybr="535.50" z_order="0">
+      <attribute name="plate number">L45H</attribute>
+    </box>
+  </image>
+  <image id="125" name="36.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1970.30" ytl="370.66" xbr="2369.86" ybr="498.28" z_order="0">
+      <attribute name="plate number">STA97759</attribute>
+    </box>
+  </image>
+  <image id="126" name="37.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2079.68" ytl="392.69" xbr="2422.28" ybr="503.60" z_order="0">
+      <attribute name="plate number">SBE9327E</attribute>
+    </box>
+  </image>
+  <image id="127" name="38.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1876.10" ytl="385.85" xbr="2249.84" ybr="494.48" z_order="0">
+      <attribute name="plate number">SZ9068J</attribute>
+    </box>
+  </image>
+  <image id="128" name="39.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2026.51" ytl="407.88" xbr="2439.75" ybr="531.70" z_order="0">
+      <attribute name="plate number">SMI19778</attribute>
+    </box>
+  </image>
+  <image id="129" name="4.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1705.94" ytl="247.60" xbr="2374.42" ybr="439.79" z_order="0">
+      <attribute name="plate number">ST8055V</attribute>
+    </box>
+  </image>
+  <image id="130" name="40.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2758.80" ytl="274.19" xbr="3395.37" ybr="489.16" z_order="0">
+      <attribute name="plate number">SBL58012</attribute>
+    </box>
+  </image>
+  <image id="131" name="41.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2167.80" ytl="394.21" xbr="2589.40" ybr="524.11" z_order="0">
+      <attribute name="plate number">ST0807U</attribute>
+    </box>
+  </image>
+  <image id="132" name="42.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2065.25" ytl="352.43" xbr="2465.58" ybr="487.64" z_order="0">
+      <attribute name="plate number">SCI91903</attribute>
+    </box>
+  </image>
+  <image id="133" name="43.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1813.01" ytl="551.64" xbr="2209.81" ybr="658.80" z_order="0">
+      <attribute name="plate number">SK321LN</attribute>
+    </box>
+  </image>
+  <image id="134" name="44.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2073.68" ytl="393.78" xbr="2467.59" ybr="512.53" z_order="0">
+      <attribute name="plate number">NEL28529</attribute>
+    </box>
+  </image>
+  <image id="135" name="45.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1879.14" ytl="570.44" xbr="2235.41" ybr="673.75" z_order="0">
+      <attribute name="plate number">SI87877</attribute>
+    </box>
+  </image>
+  <image id="136" name="46.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1930.80" ytl="287.86" xbr="2307.57" ybr="407.88" z_order="0">
+      <attribute name="plate number">SO8910X</attribute>
+    </box>
+  </image>
+  <image id="137" name="47.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1696.83" ytl="575.76" xbr="2087.28" ybr="676.79" z_order="0">
+      <attribute name="plate number">SBI01M5</attribute>
+    </box>
+  </image>
+  <image id="138" name="48.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1809.25" ytl="366.86" xbr="2224.01" ybr="493.72" z_order="0">
+      <attribute name="plate number">SO2048H</attribute>
+    </box>
+  </image>
+  <image id="139" name="49.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1610.99" ytl="557.53" xbr="2020.43" ybr="658.56" z_order="0">
+      <attribute name="plate number">SC5423W</attribute>
+    </box>
+  </image>
+  <image id="140" name="5.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1765.20" ytl="115.42" xbr="2495.96" ybr="345.59" z_order="0">
+      <attribute name="plate number">SRB9NP9</attribute>
+    </box>
+  </image>
+  <image id="141" name="50.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1667.20" ytl="373.70" xbr="2037.14" ybr="471.69" z_order="0">
+      <attribute name="plate number">SO7183K</attribute>
+    </box>
+  </image>
+  <image id="142" name="51.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1645.17" ytl="363.06" xbr="2078.16" ybr="486.13" z_order="0">
+      <attribute name="plate number">SM3726E</attribute>
+    </box>
+  </image>
+  <image id="143" name="52.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1895.85" ytl="427.63" xbr="2268.83" ybr="533.98" z_order="0">
+      <attribute name="plate number">SJ99531</attribute>
+    </box>
+  </image>
+  <image id="144" name="53.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1952.18" ytl="400.22" xbr="2329.84" ybr="526.11" z_order="0">
+      <attribute name="plate number">STACU30</attribute>
+    </box>
+  </image>
+  <image id="145" name="54.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1816.01" ytl="373.85" xbr="2192.22" ybr="484.78" z_order="0">
+      <attribute name="plate number">SZY71327</attribute>
+    </box>
+  </image>
+  <image id="146" name="55.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1937.92" ytl="547.30" xbr="2290.82" ybr="662.40" z_order="0">
+      <attribute name="plate number">SK3694W</attribute>
+    </box>
+  </image>
+  <image id="147" name="56.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1860.10" ytl="403.00" xbr="2241.87" ybr="510.68" z_order="0">
+      <attribute name="plate number">KR466WV</attribute>
+    </box>
+  </image>
+  <image id="148" name="57.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2087.48" ytl="392.54" xbr="2415.32" ybr="492.71" z_order="0">
+      <attribute name="plate number">SK894RS</attribute>
+    </box>
+  </image>
+  <image id="149" name="58.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2189.25" ytl="470.86" xbr="2510.25" ybr="547.12" z_order="0">
+      <attribute name="plate number">STA8582C</attribute>
+    </box>
+  </image>
+  <image id="150" name="59.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2217.71" ytl="474.27" xbr="2518.22" ybr="551.68" z_order="0">
+      <attribute name="plate number">SZ9991L</attribute>
+    </box>
+  </image>
+  <image id="151" name="6.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1814.49" ytl="124.45" xbr="2619.38" ybr="393.53" z_order="0">
+      <attribute name="plate number">SLU1VG6</attribute>
+    </box>
+  </image>
+  <image id="152" name="60.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2252.11" ytl="403.68" xbr="2587.28" ybr="509.90" z_order="0">
+      <attribute name="plate number">SK499VJ</attribute>
+    </box>
+  </image>
+  <image id="153" name="61.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2252.11" ytl="460.33" xbr="2563.68" ybr="568.91" z_order="0">
+      <attribute name="plate number">SK654TK</attribute>
+    </box>
+  </image>
+  <image id="154" name="62.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2195.46" ytl="545.31" xbr="2516.47" ybr="642.08" z_order="0">
+      <attribute name="plate number">SPS97077</attribute>
+    </box>
+  </image>
+  <image id="155" name="63.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2053.83" ytl="427.29" xbr="2410.25" ybr="540.58" z_order="0">
+      <attribute name="plate number">STA4470C</attribute>
+    </box>
+  </image>
+  <image id="156" name="64.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2181.30" ytl="457.97" xbr="2485.79" ybr="550.03" z_order="0">
+      <attribute name="plate number">SBE2446G</attribute>
+    </box>
+  </image>
+  <image id="157" name="65.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2134.09" ytl="441.45" xbr="2438.58" ybr="538.22" z_order="0">
+      <attribute name="plate number">SGLVN42</attribute>
+    </box>
+  </image>
+  <image id="158" name="66.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2249.75" ytl="441.45" xbr="2558.96" ybr="526.42" z_order="0">
+      <attribute name="plate number">STA2316F</attribute>
+    </box>
+  </image>
+  <image id="159" name="67.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2137.57" ytl="443.77" xbr="2447.19" ybr="526.86" z_order="0">
+      <attribute name="plate number">SZA1477F</attribute>
+    </box>
+  </image>
+  <image id="160" name="68.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2171.38" ytl="448.78" xbr="2483.27" ybr="543.25" z_order="0">
+      <attribute name="plate number">STA02220</attribute>
+    </box>
+  </image>
+  <image id="161" name="69.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2130.40" ytl="437.39" xbr="2440.02" ybr="523.90" z_order="0">
+      <attribute name="plate number">SK340TX</attribute>
+    </box>
+  </image>
+  <image id="162" name="7.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1492.56" ytl="218.93" xbr="2128.55" ybr="450.05" z_order="0">
+      <attribute name="plate number">SJ7912C</attribute>
+    </box>
+  </image>
+  <image id="163" name="70.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2327.87" ytl="438.08" xbr="2665.54" ybr="554.46" z_order="0">
+      <attribute name="plate number">SG7428J</attribute>
+    </box>
+  </image>
+  <image id="164" name="71.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2129.54" ytl="452.84" xbr="2477.04" ybr="564.30" z_order="0">
+      <attribute name="plate number">SD5421J</attribute>
+    </box>
+  </image>
+  <image id="165" name="72.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2468.84" ytl="469.23" xbr="2786.84" ybr="557.74" z_order="0">
+      <attribute name="plate number">SL84590</attribute>
+    </box>
+  </image>
+  <image id="166" name="73.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2019.71" ytl="416.77" xbr="2340.99" ybr="508.57" z_order="0">
+      <attribute name="plate number">STA43629</attribute>
+    </box>
+  </image>
+  <image id="167" name="74.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2059.05" ytl="472.51" xbr="2409.83" ybr="575.77" z_order="0">
+      <attribute name="plate number">KMI66V3</attribute>
+    </box>
+  </image>
+  <image id="168" name="75.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2213.13" ytl="492.18" xbr="2532.77" ybr="579.05" z_order="0">
+      <attribute name="plate number">SK239WE</attribute>
+    </box>
+  </image>
+  <image id="169" name="76.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2327.87" ytl="424.97" xbr="2619.65" ybr="518.40" z_order="0">
+      <attribute name="plate number">ST7803U</attribute>
+    </box>
+  </image>
+  <image id="170" name="77.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2306.57" ytl="436.44" xbr="2649.15" ybr="547.91" z_order="0">
+      <attribute name="plate number">SG986CN</attribute>
+    </box>
+  </image>
+  <image id="171" name="78.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2137.73" ytl="451.20" xbr="2445.89" ybr="536.43" z_order="0">
+      <attribute name="plate number">SL3985H</attribute>
+    </box>
+  </image>
+  <image id="172" name="79.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="2195.10" ytl="477.42" xbr="2511.46" ybr="567.58" z_order="0">
+      <attribute name="plate number">STA7824C</attribute>
+    </box>
+  </image>
+  <image id="173" name="8.jpg" width="4640" height="2088">
+    <box label="plate" source="manual" occluded="0" xtl="1394.34" ytl="214.10" xbr="2241.72" ybr="480.90" z_order="0">
+      <attribute name="plate number">ST8936T</attribute>
+    </box>
+  </image>
+  <image id="174" name="80.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2200.91" ytl="454.21" xbr="2525.53" ybr="531.64" z_order="0">
+      <attribute name="plate number">SR5635N</attribute>
+    </box>
+  </image>
+  <image id="175" name="81.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2421.29" ytl="415.49" xbr="2841.22" ybr="528.66" z_order="0">
+      <attribute name="plate number">SD7918E</attribute>
+    </box>
+  </image>
+  <image id="176" name="82.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2096.67" ytl="433.36" xbr="2418.32" ybr="531.64" z_order="0">
+      <attribute name="plate number">SO6058G</attribute>
+    </box>
+  </image>
+  <image id="177" name="83.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2069.87" ytl="460.16" xbr="2400.45" ybr="546.53" z_order="0">
+      <attribute name="plate number">SK971JF</attribute>
+    </box>
+  </image>
+  <image id="178" name="84.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2066.89" ytl="486.97" xbr="2400.45" ybr="585.25" z_order="0">
+      <attribute name="plate number">SGL03210</attribute>
+    </box>
+  </image>
+  <image id="179" name="85.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2120.50" ytl="457.19" xbr="2445.12" ybr="552.49" z_order="0">
+      <attribute name="plate number">SCI61825</attribute>
+    </box>
+  </image>
+  <image id="180" name="86.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2221.76" ytl="457.19" xbr="2582.12" ybr="555.47" z_order="0">
+      <attribute name="plate number">SK776ST</attribute>
+    </box>
+  </image>
+  <image id="181" name="87.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2019.24" ytl="436.34" xbr="2343.86" ybr="516.75" z_order="0">
+      <attribute name="plate number">SG3707Y</attribute>
+    </box>
+  </image>
+  <image id="182" name="88.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2144.32" ytl="445.27" xbr="2471.92" ybr="519.73" z_order="0">
+      <attribute name="plate number">SL7061H</attribute>
+    </box>
+  </image>
+  <image id="183" name="89.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2290.25" ytl="436.34" xbr="2588.07" ybr="528.66" z_order="0">
+      <attribute name="plate number">SM3106E</attribute>
+    </box>
+  </image>
+  <image id="184" name="9.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2597.01" ytl="275.52" xbr="3091.38" ybr="391.67" z_order="0">
+      <attribute name="plate number">SM5552E</attribute>
+    </box>
+  </image>
+  <image id="185" name="90.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2171.13" ytl="424.43" xbr="2501.71" ybr="513.77" z_order="0">
+      <attribute name="plate number">SM3726E</attribute>
+    </box>
+  </image>
+  <image id="186" name="91.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2069.87" ytl="489.95" xbr="2394.49" ybr="576.31" z_order="0">
+      <attribute name="plate number">KOS0163G</attribute>
+    </box>
+  </image>
+  <image id="187" name="92.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2120.50" ytl="454.21" xbr="2457.03" ybr="543.55" z_order="0">
+      <attribute name="plate number">SK192TF</attribute>
+    </box>
+  </image>
+  <image id="188" name="93.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2543.40" ytl="436.34" xbr="2847.17" ybr="528.66" z_order="0">
+      <attribute name="plate number">SMI98X8</attribute>
+    </box>
+  </image>
+  <image id="189" name="94.jpg" width="4640" height="2088">
+    <box label="plate" source="file" occluded="0" xtl="2364.71" ytl="439.32" xbr="2686.35" ybr="531.64" z_order="0">
+      <attribute name="plate number">SB262FF</attribute>
+    </box>
+  </image>
+  <image id="190" name="95.jpg" width="2284" height="1522">
+    <box label="plate" source="file" occluded="0" xtl="1296.75" ytl="624.26" xbr="1598.99" ybr="716.01" z_order="0">
+      <attribute name="plate number">SBL66094</attribute>
+    </box>
+  </image>
+  <image id="191" name="96.jpg" width="2284" height="1522">
+    <box label="plate" source="file" occluded="0" xtl="1651.16" ytl="622.46" xbr="1935.41" ybr="703.42" z_order="0">
+      <attribute name="plate number">SBL66094</attribute>
+    </box>
+  </image>
+  <image id="192" name="97.jpg" width="2284" height="1522">
+    <box label="plate" source="file" occluded="0" xtl="983.71" ytl="678.23" xbr="1357.92" ybr="791.57" z_order="0">
+      <attribute name="plate number">CB441ML</attribute>
+    </box>
+  </image>
+  <image id="193" name="98.jpg" width="2284" height="1522">
+    <box label="plate" source="file" occluded="0" xtl="1642.17" ytl="680.03" xbr="1908.43" ybr="757.39" z_order="0">
+      <attribute name="plate number">SZA92043</attribute>
+    </box>
+  </image>
+  <image id="194" name="99.jpg" width="2284" height="1522">
+    <box label="plate" source="file" occluded="0" xtl="1509.04" ytl="667.44" xbr="1840.06" ybr="755.59" z_order="0">
+      <attribute name="plate number">CB441ML</attribute>
+    </box>
+  </image>
+</annotations>

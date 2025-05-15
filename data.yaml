@@ -1,0 +1,5 @@
+path: dataset
+train: images
+val: images
+names:
+  - plate
