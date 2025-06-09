@@ -23,7 +23,7 @@ def txt_to_box(txt_path, img_shape):
 
 image_folder = "test_photos"
 label_folder = r"dataset\labels"
-model = YOLO("runs/detect/train2/weights/best.pt")
+model = YOLO("runs\detect\train\weights\best.pt")
 ious = []
 
 for file in os.listdir(image_folder):

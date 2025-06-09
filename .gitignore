@@ -1,0 +1,27 @@
+# Wirtualne środowiska
+.venv/
+env/
+venv/
+
+# Pliki kompilowane Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logi i dane tymczasowe
+*.log
+*.tmp
+
+# Pliki testowe i raporty
+coverage/
+.tox/
+.nox/
+.pytest_cache/
+
+# IDE / edytory
+.vscode/
+.idea/
+
+# System plików
+.DS_Store
+Thumbs.db

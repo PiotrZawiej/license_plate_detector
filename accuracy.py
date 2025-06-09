@@ -1,43 +1,62 @@
 import os
 import cv2
+import xml.etree.ElementTree as ET
+import time  # ⏱️ Dodany import
+
+from plate_from_iamge import extract_plate_from_image
+from ocr import ocr
 from ultralytics import YOLO
-import time
 
-MIN_WIDTH = 300
-MIN_HEIGHT = 300
+model = YOLO(r'runs\detect\train3\weights\best.pt')
+image_folder = r'dataset\test'
+xml_path = r'dataset\annotations.xml'
 
-model = YOLO("runs/detect/train2/weights/best.pt")
-image_dir = "test_photos1"
-image_files = [f for f in os.listdir(image_dir) if f.endswith(".png")]
+tree = ET.parse(xml_path)
+root = tree.getroot()
 
-correct = 0
+ground_truth = {}
+for image in root.findall('image'):
+    filename = image.get('name')
+    box = image.find('box')
+    if box is not None:
+        plate_number = box.find('attribute').text.strip().upper()
+        ground_truth[filename] = plate_number
+
 total = 0
+correct = 0
 
-start_time = time.time()
+start_time = time.time() 
 
-for filename in image_files:
-    img_path = os.path.join(image_dir, filename)
-    image = cv2.imread(img_path)
-
-    h, w = image.shape[:2]
-    if w < MIN_WIDTH or h < MIN_HEIGHT:
+for filename in os.listdir(image_folder):
+    if not filename.lower().endswith(('.jpg', '.jpeg', '.png')):
         continue
 
-    results = model(image)
-    pred_boxes = results[0].boxes.xyxy.cpu().numpy()
+    img_path = os.path.join(image_folder, filename)
+    image = cv2.imread(img_path)
+    if image is None:
+        continue
 
-    if len(pred_boxes) > 0:
-        correct += 1
+    prediction = None
+    try:
+        prediction = ocr(extract_plate_from_image(image, model))
+    except:
+        pass
 
-    total += 1
+    expected = ground_truth.get(filename, None)
 
-end_time = time.time()
+    if expected and prediction:
+        total += 1
+        if expected == prediction:
+            correct += 1
+        else:
+            print(f"❌ {filename} | OCR: {prediction} | GT: {expected}")
+    elif expected:
+        total += 1
+        print(f"⚠️ {filename} | Brak predykcji | GT: {expected}")
 
-accuracy = correct / total if total > 0 else 0
-processing_time = end_time - start_time
-avg_time_per_image = processing_time / total if total > 0 else 0
+end_time = time.time()  
 
-
-print(f"Przetworzono: {total} obrazów")
-print(f"Accuracy: {accuracy:.2%}")
-print(f"Łączny czas przetwarzania: {processing_time:.2f} sekundy")
+accuracy = (correct / total) * 100 if total else 0
+elapsed = end_time - start_time
+print(f"\nAccuracy: {accuracy:.2f}% ({correct}/{total})")
+print(f"time: {elapsed:.2f} s (~{elapsed/60:.2f} min)")

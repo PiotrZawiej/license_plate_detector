@@ -1,5 +1,3 @@
-import kagglehub
+from grade import calculate_final_grade
 
-path = kagglehub.dataset_download("piotrstefaskiue/poland-vehicle-license-plate-dataset")
-
-print("Path to dataset files:", path)
+print(calculate_final_grade(94.92, 5.21))
