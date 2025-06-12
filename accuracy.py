@@ -1,15 +1,30 @@
 import os
 import cv2
 import xml.etree.ElementTree as ET
-import time  # ⏱️ Dodany import
+import time
 
 from plate_from_iamge import extract_plate_from_image
-from ocr import ocr
 from ultralytics import YOLO
+from fast_alpr import ALPR
 
-model = YOLO(r'runs\detect\train3\weights\best.pt')
+model_path = r'runs\detect\train3\weights\best.pt'
 image_folder = r'dataset\test'
 xml_path = r'dataset\annotations.xml'
+
+for file in os.listdir(image_folder):
+    if file.endswith('.png') or file.endswith('.txt'):
+        try:
+            os.remove(os.path.join(image_folder, file))
+            print(f"deleted: {file}")
+        except Exception as e:
+            print(f"error {file}: {e}")
+
+# === Wczytywanie modeli ===
+model = YOLO(model_path)
+alpr = ALPR(
+    detector_model="yolo-v9-t-384-license-plate-end2end",
+    ocr_model="global-plates-mobile-vit-v2-model",
+)
 
 tree = ET.parse(xml_path)
 root = tree.getroot()
@@ -24,8 +39,7 @@ for image in root.findall('image'):
 
 total = 0
 correct = 0
-
-start_time = time.time() 
+start_time = time.time()
 
 for filename in os.listdir(image_folder):
     if not filename.lower().endswith(('.jpg', '.jpeg', '.png')):
@@ -36,11 +50,18 @@ for filename in os.listdir(image_folder):
     if image is None:
         continue
 
+    plate_crop = extract_plate_from_image(image, model)
     prediction = None
-    try:
-        prediction = ocr(extract_plate_from_image(image, model))
-    except:
-        pass
+
+    if plate_crop is not None:
+        try:
+            results = alpr.predict(plate_crop)
+            if results:
+                prediction = results[0].ocr.text.strip().upper()
+        except Exception as e:
+            print(f"Fstalpr error {filename}: {e}")
+    else:
+        print(f"no detection: {filename}")
 
     expected = ground_truth.get(filename, None)
 
@@ -52,11 +73,12 @@ for filename in os.listdir(image_folder):
             print(f"❌ {filename} | OCR: {prediction} | GT: {expected}")
     elif expected:
         total += 1
-        print(f"⚠️ {filename} | Brak predykcji | GT: {expected}")
+        print(f"⚠️ {filename} | no detection | GT: {expected}")
 
-end_time = time.time()  
-
+# === Podsumowanie ===
+end_time = time.time()
 accuracy = (correct / total) * 100 if total else 0
 elapsed = end_time - start_time
+
 print(f"\nAccuracy: {accuracy:.2f}% ({correct}/{total})")
-print(f"time: {elapsed:.2f} s (~{elapsed/60:.2f} min)")
+print(f"\nCzas działania: {elapsed:.2f} s (~{elapsed/60:.2f} min)")

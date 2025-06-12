@@ -3,6 +3,7 @@ from ocr import ocr
 
 from ultralytics import YOLO
 import cv2
+from fast_alpr import ALPR
 
 model = YOLO(r'runs\detect\train3\weights\best.pt')
 image = cv2.imread(r'dataset\test\13.jpg')
@@ -15,4 +16,11 @@ if plate_crop is not None:
 else:
     print("no plate")
 
-ocr(plate_crop)
+alpr = ALPR(
+    detector_model="yolo-v9-t-384-license-plate-end2end",
+    ocr_model="global-plates-mobile-vit-v2-model",
+)
+
+alpr_results = alpr.predict(plate_crop)
+if alpr_results:
+    print(alpr_results[0].ocr.text)
