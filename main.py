@@ -1,3 +1,6 @@
 from grade import calculate_final_grade
+from accuracy import accuracy_n_time
 
-print(calculate_final_grade(94.92, 5.21))
+accuracy, time = accuracy_n_time()
+
+print(calculate_final_grade(accuracy, time))

@@ -1,5 +1,6 @@
 import os
 import cv2
+import xml.etree.ElementTree as ET
 from ultralytics import YOLO
 
 def compute_iou(boxA, boxB):
@@ -11,39 +12,58 @@ def compute_iou(boxA, boxB):
     areaB = (boxB[2] - boxB[0]) * (boxB[3] - boxB[1])
     return inter / (areaA + areaB - inter)
 
-def txt_to_box(txt_path, img_shape):
-    h, w = img_shape[:2]
-    with open(txt_path) as f:
-        xc, yc, bw, bh = map(float, f.readline().split()[1:])
-    x1 = int((xc - bw/2) * w)
-    y1 = int((yc - bh/2) * h)
-    x2 = int((xc + bw/2) * w)
-    y2 = int((yc + bh/2) * h)
-    return [x1, y1, x2, y2]
+image_folder = r"dataset\train"
+xml_path = "dataset/annotations.xml"
+model_path = "runs/detect/train/weights/best.pt"
+model = YOLO(model_path)
 
-image_folder = "test_photos"
-label_folder = r"dataset\labels"
-model = YOLO("runs\detect\train\weights\best.pt")
+tree = ET.parse(xml_path)
+root = tree.getroot()
+ground_truth = {}
+
+for image in root.findall("image"):
+    filename = image.get("name")
+    box = image.find("box")
+    if box is not None:
+        xtl = float(box.get("xtl"))
+        ytl = float(box.get("ytl"))
+        xbr = float(box.get("xbr"))
+        ybr = float(box.get("ybr"))
+        ground_truth[filename] = [int(xtl), int(ytl), int(xbr), int(ybr)]
+
 ious = []
+processed = 0
 
 for file in os.listdir(image_folder):
-    if not file.endswith(".jpg"):
+    if not file.lower().endswith(".jpg"):
+        continue
+
+    if file not in ground_truth:
+        print(f"⚠️ Brak danych GT w XML dla: {file}")
         continue
 
     img_path = os.path.join(image_folder, file)
-    label_path = os.path.join(label_folder, file.replace(".jpg", ".txt"))
-
-    if not os.path.exists(label_path):
+    img = cv2.imread(img_path)
+    if img is None:
+        print(f"❌ Nie można wczytać: {file}")
         continue
 
-    img = cv2.imread(img_path)
-    gt_box = txt_to_box(label_path, img.shape)
-    pred = model(img)[0].boxes.xyxy.cpu().numpy()
+    gt_box = ground_truth[file]
+    preds = model(img)[0].boxes.xyxy.cpu().numpy()
 
-    if len(pred) == 0:
-        ious.append(0.0)
+    if len(preds) == 0:
+        print(f"❌ Brak detekcji: {file}")
+        iou = 0.0
     else:
-        pred_box = list(map(int, pred[0]))  
-        ious.append(compute_iou(pred_box, gt_box))
+        pred_box = list(map(int, preds[0]))
+        iou = compute_iou(pred_box, gt_box)
 
-print(f"Średnie IoU: {sum(ious)/len(ious):.3f}")
+    ious.append(iou)
+    processed += 1
+    print(f"{file} | IoU: {iou:.3f}")
+
+if processed > 0:
+    mean_iou = sum(ious) / processed
+    print(f"\nŚrednie IoU: {mean_iou:.3f} ({processed} obrazów)")
+else:
+    print("\n⚠️ Nie przetworzono żadnych obrazów.")
