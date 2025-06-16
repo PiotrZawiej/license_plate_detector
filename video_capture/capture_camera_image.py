@@ -3,15 +3,23 @@ import os
 import cv2
 import time
 import threading
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from fast_alpr import ALPR
+from plate_from_iamge import extract_plate_from_image
 from ultralytics import YOLO
 
-from plate_from_iamge import extract_plate_from_image
 from video_capture.check_plate import check_plate
 from video_capture.trusted_plates_util import save_known_plates
 
-model = YOLO(r'..\runs\detect\train3\weights\best.pt')
+# TYLKO DLA MACA, ZEBY WYLACZYC GPU
+# import onnxruntime as ort
+# ort.get_available_providers = lambda: ["CPUExecutionProvider"]
+
+
+model_path = os.path.join('..', 'runs', 'detect', 'train3', 'weights', 'best.pt')
+model = YOLO(model_path)
 is_checking = None
 last_check_time = None
 
@@ -35,6 +43,7 @@ def capture_plate():
                 detector_model="yolo-v9-t-384-license-plate-end2end",
                 ocr_model="global-plates-mobile-vit-v2-model",
             )
+            
 
             alpr_results = alpr.predict(plate_crop)
             if alpr_results:
@@ -98,7 +107,7 @@ def start_capturing():
             break
 
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 WIDTH, HEIGHT = 1280, 720
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, WIDTH)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, HEIGHT)

@@ -8,9 +8,10 @@ from ultralytics import YOLO
 from fast_alpr import ALPR
 
 def accuracy_n_time():
-    model_path = r'runs\detect\train3\weights\best.pt'
-    image_folder = r'test'
-    xml_path = r'dataset\annotations.xml'
+
+    model_path = os.path.join("runs", "detect", "train3", "weights", "best.pt")
+    image_folder = os.path.join("test")
+    xml_path = os.path.join("dataset", "annotations.xml")
 
     for file in os.listdir(image_folder):
         if file.endswith('.png') or file.endswith('.txt'):

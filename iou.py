@@ -12,9 +12,9 @@ def compute_iou(boxA, boxB):
     areaB = (boxB[2] - boxB[0]) * (boxB[3] - boxB[1])
     return inter / (areaA + areaB - inter)
 
-image_folder = r"dataset\train"
-xml_path = "dataset/annotations.xml"
-model_path = "runs/detect/train/weights/best.pt"
+image_folder = os.path.join("dataset", "train")
+xml_path = os.path.join("dataset", "annotations.xml")
+model_path = os.path.join("runs", "detect", "train", "weights", "best.pt")
 model = YOLO(model_path)
 
 tree = ET.parse(xml_path)

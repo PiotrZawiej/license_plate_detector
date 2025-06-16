@@ -2,7 +2,7 @@ import os
 import shutil
 import random
 
-source_folder = r"dataset"
+source_folder = os.path.join("dataset")
 labels_folder = os.path.join(source_folder, "labeles")
 
 train_folder = os.path.join(source_folder, "train")
