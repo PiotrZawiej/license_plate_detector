@@ -12,7 +12,7 @@ plate_crop = extract_plate_from_image(image, model)
 
 if plate_crop is not None:
     cv2.imshow("plate_crop", plate_crop)
-    cv2.waitKey(0)
+    # cv2.waitKey(0)
 else:
     print("no plate")
 
