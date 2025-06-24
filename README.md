@@ -10,20 +10,6 @@ A Python project for detecting and reading vehicle license plates in images and 
 
 ---
 
-## Table of Contents
-
-1. [Requirements](#requirements)  
-2. [Installation](#installation)  
-3. [Project Structure](#project-structure)  
-4. [Configuration](#configuration)  
-5. [Usage](#usage)  
-   - [Batch Evaluation](#batch-evaluation)  
-   - [Live Video Capture](#live-video-capture)  
-6. [Adding Trusted Plates](#adding-trusted-plates)  
-7. [License](#license)
-
----
-
 ## Requirements
 
 - Python 3.8+  
