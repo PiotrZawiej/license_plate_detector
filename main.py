@@ -1,6 +1,9 @@
-from grade import calculate_final_grade
 from accuracy import accuracy_n_time
+from iou import calculate_iou
 
 accuracy, time = accuracy_n_time()
+iou = calculate_iou()
 
-print(calculate_final_grade(accuracy, time))
+print(  f"accuracy: {accuracy}\n "
+        f"time: {time}\n" \
+        f"iou: {iou}")

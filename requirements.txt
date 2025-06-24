@@ -1,0 +1,8 @@
+# OpenCV for image I/O and processing
+opencv-python
+
+# Ultralytics YOLO model support
+ultralytics
+
+# Fast ALPR (automatic license-plate recognition)
+fast-alpr

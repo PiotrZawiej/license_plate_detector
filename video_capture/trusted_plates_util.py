@@ -1,5 +1,5 @@
 
-# Funkcje tylko na potrzeby prezentacji
+# function only for presentation
 
 filename = "plates.txt"
 
